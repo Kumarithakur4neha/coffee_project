@@ -1,0 +1,665 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+   background-image: url("https://coffeechain.net/hero-img.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    position: relative;
+}
+.header{
+    height: 13%;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.671);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left{
+    height: 100%;
+    margin-left: 7%;
+    width: 7%;
+    /* background-color: red; */
+}
+.mid{
+    height: 100%;
+    width: 40%;
+    margin-left: 10%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.mid a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+.header-right{
+    height: 100%;
+    width: 15%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-search-input input{
+  position: absolute;
+  top: -10%;
+  right: 10%;
+  /* opacity: 0; */
+  padding: 10px 30px;
+  border-radius: 10px;
+  
+}
+.header-search-input img{
+    position: absolute;
+    top: 15%;
+    right: 11%;
+   
+}
+.header-cart{
+    height: 100%;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.253);
+    position: absolute;
+    right: -40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+
+}
+.cart-1{
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+   gap: 25px;
+   
+}
+.cart-2{
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 25px;
+   
+}
+.cart-3{
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 25px;
+   
+}
+.cart-4{
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 25px;
+   
+}
+.cart-2 h3{
+    margin-left: 7%;
+}
+.cart-4 h3{
+    margin-left: 7%;
+}
+.page1-elem{
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 45%;
+    width: 30%;
+    /* background-color: red; */
+}
+.page1-elem h1{
+    color: wheat;
+    font-size: 3vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+.page1-elem p{
+    margin-top: 3%;
+color:rgba(255, 255, 255, 0.445) ;
+text-transform: capitalize;
+}
+.page1-elem button{
+    margin-top: 5%;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgba(182, 182, 34, 0.322);
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    transition: all ease 1s;
+}
+.page1-elem button:hover{
+    scale: 1.1;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.page2 h1{
+    background: linear-gradient(to right, wheat,rgb(11, 58, 11));
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 4vw;
+    text-transform: uppercase;
+    text-align: center;
+}
+.page2-elem{
+    height: 80%;
+    margin-left: 10%;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page2-elem-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: teal; */
+}
+.page2-elem-right h3{
+    margin-top: 20%;
+    font-size: 2vw;
+    font-family: sans-serif;
+    color: wheat;
+    text-transform: capitalize;
+    margin-left: 5%;
+}
+.page2-elem-right p{
+    margin-top: 2%;
+    margin-left: 5%;
+    color: rgba(245, 222, 179, 0.541);
+    font-style: oblique;
+
+}
+.page2-elem-right button{
+    margin-top: 5%;
+    padding: 10px 20px;
+    margin-left: 5%;
+    color: white;
+    background-color: rgba(182, 182, 34, 0.322);
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    transition: all ease 1s;
+}
+.page2-elem-right button:hover{
+    scale: 1.1;
+} 
+
+.page2-elem-left{
+    height: 100%;
+    width: 50%;
+    
+}
+.page2-elem-left img{
+    margin-top: 7%;
+    border-radius: 5px;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.page3 h1{
+   text-align: center;
+    background: linear-gradient(to left,green,lightyellow);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+.page3-head{
+    height: 10%;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 30%;
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page3-head-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page3-head-left a{
+    text-decoration: none;
+    color: white;
+
+}
+.page3-head-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(44, 44, 13); */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page3-head-right a{
+    text-decoration: none;
+    color: white;
+    
+}
+.page3-elem{
+    height: 60%;
+    background-color:rgba(255, 0, 0, 0.699);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.page3-elem-flex{
+    height: 100%;
+    width: 40%;
+    /* background-color: teal; */
+    flex-shrink: 0;
+    background-image: url("https://coffeechain.net/coffee-chain-101.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.page3-elem-flex:hover{
+    scale: 1.1;
+}
+.slider{
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 5px;
+    width: 55%;
+    background-color: white;
+    position: absolute;
+
+}
+.slider-i{
+    height: 100%;
+    width: 40%;
+    background-color:rgba(13, 87, 13, 0.425);
+}
+.page3-elem-flex h2{
+    margin-top: 2%;
+    margin-left: 3%;
+    color: orangered;
+}
+.page3-elem-flex h1{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 100;
+    
+}
+.page3-elem-flex p{
+    margin-top: 7%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://coffeechain.net/coffee-chain-beans.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.page4 h1{
+    margin-left: 2%;
+    font-size: 4vw;
+    color: white; 
+   font-family: fantasy;
+   text-transform: uppercase;
+   font-weight: 300;
+   
+}
+.page4-elem{
+    margin-top: 2%;
+    height: 85%;
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page4-elem-1{
+    height: 100%;
+    width: 30%;
+    border: 1px solid rgba(255, 228, 196, 0.685);
+    border-radius: 20px;
+    transition: all ease 1s;
+    
+}
+.page4-elem-1:hover{
+    background-color:rgba(255, 255, 255, 0.274);
+}
+.page4-elem-1 img:hover{
+    scale:1.1;
+}
+.rating{
+    margin-left: 10%;
+    height: 10%;
+    width: 60%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.rating p{
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    
+}
+.page5 button{
+    padding: 10px 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    background:conic-gradient(from 360deg,rgb(194, 121, 133),orangered,rgb(194, 152, 159));
+    margin-top: 1%;
+    border: none;
+    margin-left: 43%;
+}
+.page5 button:hover{
+    background-color: transparent;
+}
+.page5 h1{
+    margin-top: 2%;
+    color: white;
+    font-size: 4vw;
+    margin-left: 29%;
+    font-weight: 200;
+}
+.page5 img{
+    margin-top: 2%;
+    margin-left: 46%;
+}
+.page5-elem{
+    margin-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+    height: 35%;
+    /* background-color: rgba(255, 228, 196, 0.411); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.page5-elem p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+}
+.page5-left{
+    height: 45px;
+    width: 45px;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 50%;
+}
+.page5-right{
+    height: 45px;
+    width: 45px;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 50%;
+}
+.page5-left img{
+    margin-top: 10px;
+    
+}
+.page5-right img{
+    margin-top: 10px;
+    
+}
+.page6{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.page6 button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(51, 51, 10);
+    color: white;
+    margin-top: 2%;
+    margin-left: 45%;
+    border: none;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.page6 h1{
+    margin-top: 1%;
+    color: white;
+    font-size: 4vw;
+    font-weight: 100;
+    margin-left: 28%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.page6-elem{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(0, 0, 255, 0.507); */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page6-elem1{
+    height: 100%;
+    width: 30%;
+    /* background-color: beige;    */
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    border-radius: 10px;
+}
+.page6-elem2{
+    height: 100%;
+    width: 30%;
+    /* background-color: beige;    */
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    border-radius: 10px;
+}
+
+.page6-elem3{
+    height: 100%;
+    width: 30%;
+    /* background-color: beige;    */
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    border-radius: 10px;
+}
+.page6-half{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+}
+.page6-half-2{
+    height: 50%;
+    width: 100%;  
+}
+.page6-half-3{
+    height: 50%;
+    width: 100%;  
+}
+.by{
+    margin-left: 3%;
+    height: 20%;
+    width: 30%;
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.by h4{
+    color: orangered;
+}
+.by p{
+    color: rgba(255, 255, 255, 0.534);
+}
+.page6-elem1 a{
+    margin-left: 2%;
+    margin-top: 5%;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.page6-elem1 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.page6-elem2 a{
+    margin-top: 5%;
+    margin-left: 2%;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.page6-elem2 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.page6-elem3 a{
+    margin-left: 2%;
+    margin-top: 5%;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.page6-elem3 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.read-more{
+    height: 15%;
+    margin-left: 2%;
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.read-more h5{
+    color: white;
+    font-size: 17px;
+}
+.page7{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://tuk-cdn.s3.amazonaws.com/can-uploader/beans0-0-w-.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
+    position: relative;
+}
+.hr{
+    margin-top: 7%;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.555);
+    
+}
+.page-7-circle{
+    height: 45px;
+    width: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.596);
+    border-radius: 50%;
+position: absolute;
+top: 12%;
+left: 47%;
+}
+.page-7-circle:hover{
+    background-color: rgb(133, 50, 20);
+}
+.page-7-circle img{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.page7 h3{
+    color: rgba(255, 255, 255, 0.61);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-left: 46%;
+    margin-top: 2%;
+}
+.page-7-logo img{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.page7 h2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+}
+.page-7-down-logos{
+    height: 10%;
+    width: 7%;
+    /* background-color: teal; */
+    margin-left: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.page7-last{
+    height: 10%;
+    width: 45%;
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2%;
+
+}
+.page7-last a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.page7-last a:hover{
+    color: rgb(185, 81, 43);
+}
